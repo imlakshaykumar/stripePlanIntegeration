@@ -18,7 +18,7 @@ export const Login = () => {
 
         try {
             setIsLoading(true);
-            const response = await axios.post('http://localhost:5000/login', { email, password });
+            const response = await axios.post('https://paymentserver-h060.onrender.com/login', { email, password });
             const token = response.data.token;
 
             localStorage.setItem('token', token);

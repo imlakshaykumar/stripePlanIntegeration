@@ -20,7 +20,7 @@ export const Register = () => {
         try {
             setIsLoading(true);
             console.log(name, email, password);
-            const response = await axios.post('http://localhost:5000/register', { name, email, password });
+            const response = await axios.post('https://paymentserver-h060.onrender.com/register', { name, email, password });
             console.log(response);
             setIsLoading(false);
             navigate('/plans')
