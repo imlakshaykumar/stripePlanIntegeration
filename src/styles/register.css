@@ -1,0 +1,99 @@
+body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+    width: 360px;
+    /* height: 620px; */
+    border-radius: 20px;
+    margin: 20vh auto;
+    background-color: white;
+    padding: 20px;
+}
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    text-align: center;
+}
+
+form {
+    width: 270px;
+    margin-left: 20px;
+}
+
+span {
+    position: absolute;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+button {
+    width: 270px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1D5D9B;
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.para-2 {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.para-2 a {
+    color: #49c1a2;
+}
+
+/* checkbox */
+.form-group.checkbox-group {
+    display: flex;
+    align-items: center;
+    font-size: inherit;
+    margin-top: 20px;
+}
+
+.form-group.checkbox-group label {
+    margin: 0 10px;
+}
+
+.form-group.checkbox-group input[type="checkbox"] {
+    margin: 0;
+    width: fit-content;
+}
